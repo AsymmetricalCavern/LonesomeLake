@@ -1,0 +1,183 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "DreamLake",
+    "starSystem" : "AsymmetricalCavern.space",
+    "Base" : {
+        "groundSize" : 100,
+		"surfaceSize" : 1000,
+		"surfaceGravity" : 12,
+		"showMinimap" : false,
+        "hasMapMarker" : false
+    },
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	},
+	"Orbit" : {
+		"semiMajorAxis" : 5000,
+		"primaryBody" : "center",
+        "isMoon" : false,
+		"isTidallyLocked" : false
+	},
+	"Dream" : {
+		"inDreamWorld" : true,
+		"generateSimulationMeshes" : true
+	},
+	"Volumes" : {
+		"audioVolumes" : [
+			{
+				"radius" : 500,
+				"position" : {
+					"x": 0,
+					"y": 1000,
+					"z": 0
+				},
+				"noFadeFromBeginning" : true,
+				"audio" : "River_DW_Lake"
+			}
+		]
+	},
+	"AmbientLights" : [
+		{
+			"intensity" : 0.05,
+			"position" : {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"tint" : {
+				"r": 100,
+				"g": 100,
+				"b": 100,
+				"a": 100
+			}
+		}
+	],
+	"Props" : {
+		"details" : [
+			{
+				"keeploaded" : true,
+                "assetBundle": "planets/assets/ascajam4",
+                "path": "Assets/ImportedPrefabs/moonlakebase.prefab",
+				"position" : {
+					"x": 0,
+					"y": 1000,
+					"z": 0
+				}
+			}
+		],
+		"slideShows" : [
+			{
+				"position" : {
+					"x": 32,
+					"y": 1001.8,
+					"z": 61
+				},
+				"rotation" : {
+					"x": 10,
+					"y": 180,
+					"z": 10
+				},
+				"type": "standingVisionTorch",
+				"slides": [
+					{"imagePath": "planets/assets/reels/reel1_0.png", "backdropAudio" : "Reel_1_Backdrop_A"},
+					{"imagePath": "planets/assets/reels/reel1_1.png", "beatAudio" : "Reel_1_Beat_A"},
+					{"imagePath": "planets/assets/reels/reel1_2.png"},
+					{"imagePath": "planets/assets/reels/reel1_3.png"},
+					{"imagePath": "planets/assets/reels/reel1_4.png"},
+					{"imagePath": "planets/assets/reels/reel1_5.png"},
+					{"imagePath": "planets/assets/reels/reel1_6.png"},
+					{"imagePath": "planets/assets/reels/reel1_7.png"},
+					{"imagePath": "planets/assets/reels/reel1_8.png"},
+					{"imagePath": "planets/assets/reels/reel1_9.png"},
+					{"imagePath": "planets/assets/reels/reel1_10.png"},
+					{"imagePath": "planets/assets/reels/reel1_11.png"},
+					{"imagePath": "planets/assets/reels/reel1_12.png"},
+					{"imagePath": "planets/assets/reels/reel1_13.png"},
+					{"imagePath": "planets/assets/reels/reel1_14.png", "backdropAudio" : "Reel_3_Backdrop_A"},
+					{"imagePath": "planets/assets/reels/reel1_15.png"},
+					{"imagePath": "planets/assets/reels/reel1_16.png"},
+					{"imagePath": "planets/assets/reels/reel1_17.png"},
+					{"imagePath": "planets/assets/reels/reel1_18.png"},
+					{"imagePath": "planets/assets/reels/reel1_19.png"},
+					{"imagePath": "planets/assets/reels/reel1_20.png"},
+					{"imagePath": "planets/assets/reels/reel1_21.png"},
+					{"imagePath": "planets/assets/reels/reel1_22.png"},
+					{"imagePath": "planets/assets/reels/reel1_23.png"},
+					{"imagePath": "planets/assets/reels/reel1_24.png"},
+					{"imagePath": "planets/assets/reels/reel1_25.png"},
+					{"imagePath": "planets/assets/reels/reel1_26.png"},
+					{"imagePath": "planets/assets/reels/reel1_27.png", "beatAudio" : "Reel_2_Beat_B"},
+					{"imagePath": "planets/assets/reels/reel1_28.png"},
+					{"imagePath": "planets/assets/reels/reel1_29.png"},
+					{"imagePath": "planets/assets/reels/reel1_30.png"},
+					{"imagePath": "planets/assets/reels/reel1_31.png"},
+					{"imagePath": "planets/assets/reels/reel1_32.png"},
+					{"imagePath": "planets/assets/reels/reel1_33.png"},
+					{"imagePath": "planets/assets/reels/reel1_34.png"},
+					{"imagePath": "planets/assets/reels/reel1_35.png"},
+					{"imagePath": "planets/assets/reels/reel1_36.png"},
+					{"imagePath": "planets/assets/reels/reel1_37.png"},
+					{"imagePath": "planets/assets/reels/reel1_38.png"},
+					{"imagePath": "planets/assets/reels/reel1_39.png"},
+					{"imagePath": "planets/assets/reels/reel1_40.png"},
+					{"imagePath": "planets/assets/reels/reel1_41.png"},
+					{"imagePath": "planets/assets/reels/reel1_42.png"},
+					{"imagePath": "planets/assets/reels/reel1_43.png"},
+					{"imagePath": "planets/assets/reels/reel1_44.png"},
+					{"imagePath": "planets/assets/reels/reel1_45.png"},
+					{"imagePath": "planets/assets/reels/reel1_46.png"},
+					{"imagePath": "planets/assets/reels/reel1_47.png"},
+					{"imagePath": "planets/assets/reels/reel1_48.png"},
+					{"imagePath": "planets/assets/reels/reel1_49.png"},
+					{"imagePath": "planets/assets/reels/reel1_50.png"},
+					{"imagePath": "planets/assets/reels/reel1_51.png"},
+					{"imagePath": "planets/assets/reels/reel1_52.png"},
+					{"imagePath": "planets/assets/reels/reel1_53.png"},
+					{"imagePath": "planets/assets/reels/reel1_54.png"},
+					{"imagePath": "planets/assets/reels/reel1_55.png"},
+					{"imagePath": "planets/assets/reels/reel1_56.png"},
+					{"imagePath": "planets/assets/reels/reel1_57.png"},
+					{"imagePath": "planets/assets/reels/reel1_58.png"},
+					{"imagePath": "planets/assets/reels/reel1_59.png"},
+					{"imagePath": "planets/assets/reels/reel1_60.png"},
+					{"imagePath": "planets/assets/reels/reel1_61.png"},
+					{"imagePath": "planets/assets/reels/reel1_62.png"},
+					{"imagePath": "planets/assets/reels/reel1_63.png"},
+					{"imagePath": "planets/assets/reels/reel1_64.png", "beatAudio" : "Reel_Rule_Backdrop_Glitch"},
+					{"imagePath": "planets/assets/reels/reel1_65.png"},
+					{"imagePath": "planets/assets/reels/reel1_66.png"},
+					{"imagePath": "planets/assets/reels/reel1_67.png"},
+					{"imagePath": "planets/assets/reels/reel1_68.png"},
+					{"imagePath": "planets/assets/reels/reel1_69.png"},
+					{"imagePath": "planets/assets/reels/reel1_70.png"},
+					{"imagePath": "planets/assets/reels/reel1_71.png"},
+					{"imagePath": "planets/assets/reels/reel1_72.png"},
+					{"imagePath": "planets/assets/reels/reel1_73.png"},
+					{"imagePath": "planets/assets/reels/reel1_74.png"},
+					{"imagePath": "planets/assets/reels/reel1_75.png"},
+					{"imagePath": "planets/assets/reels/reel1_76.png"},
+					{"imagePath": "planets/assets/reels/reel1_77.png"},
+					{"imagePath": "planets/assets/reels/reel1_78.png"},
+					{"imagePath": "planets/assets/reels/reel1_79.png"},
+					{"imagePath": "planets/assets/reels/reel1_80.png"},
+					{"imagePath": "planets/assets/reels/reel1_81.png"},
+					{"imagePath": "planets/assets/reels/reel1_82.png"},
+					{"imagePath": "planets/assets/reels/reel1_83.png"}
+				]
+			}
+		],
+		"dreamArrivalPoints" : [
+			{
+				"id" : "mldream",
+				"position" : {
+					"x": 60,
+					"y": 1002,
+					"z": 90
+				},
+				"generateSimulationMeshes" : true
+			}
+		]
+	}
+}

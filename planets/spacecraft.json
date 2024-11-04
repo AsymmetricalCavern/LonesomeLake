@@ -1,0 +1,124 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "MoonShip",
+    "starSystem": "AsymmetricalCavern.space",
+    "Base" : {
+		"surfaceSize" : 1000,
+		"surfaceGravity" : 0,
+        "hasMapMarker": false,
+		"showMinimap" : false
+    },
+	"ShipLog" : {
+		"mapMode" : {
+			"remove" : true
+		}
+	},
+	"Orbit" : {
+        "semiMajorAxis": 100,
+        "primaryBody": "center",
+        "isMoon": false,
+		"alignmentAxis" : {
+			"x" : 0,
+			"y" : 1,
+			"z" : 0
+		},
+        "isTidallyLocked": true
+	},
+	"AmbientLights" : [
+		{
+			"intensity" : 0.5,
+			"position" : {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"tint" : {
+				"r": 100,
+				"g": 100,
+				"b": 100,
+				"a": 100
+			}
+		}
+	],
+	"Spawn" : {
+		"playerSpawn" : {
+			"position" : {
+				"x": 0,
+				"y": 7.85,
+				"z": -89
+			},
+			"alignRadial" : false,
+			"startWithSuit" : true
+		},
+		"shipSpawn" : {
+			"position" : {
+				"x": 0,
+				"y": 15.5,
+				"z": -98
+			},
+			"rotation" : {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"alignRadial" : false
+		}
+	},
+	"Orbit" : {
+		"showOrbitLine" : false,
+		"isStatic" : true
+	},
+	"Volumes" : {
+		"mapRestrictionVolumes" : [
+			{
+				"position" : {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"radius" : 10000
+			}
+		],
+		"creditsVolume" : [
+			{
+				"position" : {
+					"x": 0,
+					"y": 20,
+					"z": -700
+				},
+				"creditsType" : "fast",
+				"deathType" : "meditation",
+				"radius" : 600
+			}
+		]
+	},
+	"Props" : {
+		"dreamCampfires" : [
+			{
+				"id" : "mldream",
+				"position" : {
+					"x": -2.544,
+					"y": 16.42,
+					"z": 43.997
+				},
+				"rotation" : {
+					"x": 0,
+					"y": 220,
+					"z": 20
+				}
+			}
+		],
+		"details" : [
+			{
+				"keeploaded" : true,
+                "assetBundle": "planets/assets/ascajam4",
+                "path": "Assets/ImportedPrefabs/mlship.prefab",
+				"position" : {
+					"x": 0,
+					"y": 0,
+					"z": 0
+				}
+			}
+		]
+	}
+}
