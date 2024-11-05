@@ -111,11 +111,26 @@
 		"details" : [
 			{
 				"keeploaded" : true,
-                "assetBundle": "planets/assets/ascajam4",
+                "assetBundle": "planets/assets/ascajam4dream",
                 "path": "Assets/ImportedPrefabs/mlship.prefab",
 				"position" : {
 					"x": 0,
 					"y": 0,
+					"z": 0
+				}
+			},
+			{
+				"keeploaded" : true,
+                "assetBundle": "planets/assets/ascajam4ghost",
+                "path": "Assets/ImportedPrefabs/survivorghost.prefab",
+				"position" : {
+					"x": 30.09,
+					"y": 1.44,
+					"z": 61.82
+				},
+				"rotation" : {
+					"x": 0,
+					"y": 180,
 					"z": 0
 				}
 			}
