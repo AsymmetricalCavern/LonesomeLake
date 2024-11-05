@@ -58,7 +58,7 @@
 		"details" : [
 			{
 				"keeploaded" : true,
-                "assetBundle": "planets/assets/ascajam4ship",
+                "assetBundle": "planets/assets/ascajam4",
                 "path": "Assets/ImportedPrefabs/moonlakebase.prefab",
 				"position" : {
 					"x": 0,
