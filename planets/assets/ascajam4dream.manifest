@@ -1,0 +1,63 @@
+ManifestFileVersion: 0
+CRC: 1510022425
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d2b1611318770f5bb216e76d43339d74
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 22815cd7506c38d9541d2daca216d2bc
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 228a84d6d8ef45fc53f14e8bfe431430, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 868270f9b8f64f9f31d5de6662d021ce, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f58921d6be8bad783a3e4ec4fa17756, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5418269dfd62f50b1141b92b39b0843a, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ImportedPrefabs/moonlakebase.prefab
+Dependencies: []
